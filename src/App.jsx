@@ -12,7 +12,7 @@ import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/portfolio-1/">
         <Header />
         <Home />
         <Skills />
